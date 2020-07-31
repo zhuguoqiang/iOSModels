@@ -25,6 +25,7 @@
     uname(&systemInfo);
     NSString *platform = [NSString stringWithCString:systemInfo.machine encoding:NSUTF8StringEncoding];
     // https://support.apple.com/kb/HT3939
+    // https://support.apple.com/en_US/specs
     if ([platform hasPrefix:@"iPhone"])
     {
         // ************
@@ -233,6 +234,16 @@
         // Apple Tech specs: https://support.apple.com/kb/SP806
         if ([platform isEqualToString:@"iPhone12,5"])
             return @"iPhone 11 Pro Max";
+        
+        // ************
+        // iPhone SE 2
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/SP820
+        if ([platform isEqualToString:@"iPhone12,8"])
+            return @"iPhone SE (2nd generation)";
+        
+        
     }
     
     if ([platform hasPrefix:@"iPod"])
@@ -284,6 +295,14 @@
         // Apple Tech specs: (A1574) https://support.apple.com/kb/SP720
         if ([platform isEqualToString:@"iPod7,1"])
             return @"iPod touch 6G";
+        
+        // ************
+        // iPod touch (7th generation)
+        // ************
+        // Model(s): A2178
+        // Apple Tech specs: (A1574) https://support.apple.com/kb/SP796
+        if ([platform isEqualToString:@"iPod9,1"])
+            return @"iPod touch (7th generation)";
     }
     
     if ([platform hasPrefix:@"iPad"])
@@ -506,6 +525,47 @@
         // Model(s): A1934, A1979 & A2013
         if ([platform isEqualToString:@"iPad8,3"] || [platform isEqualToString:@"iPad8,4"])
             return @"iPad Pro 11-inch Wi-Fi + Cellular";
+        
+        // ************
+        // iPad Pro (12.9-inch) (3rd generation)
+        // ************
+        // Apple Tech specs: https://support.apple.com/kb/SP785
+        // Model(s): A1876, A1895, A1983, A2014
+        if ([platform isEqualToString:@"iPad8,5"] || [platform isEqualToString:@"iPad8,6"]
+           || [platform isEqualToString:@"iPad8,7"] || [platform isEqualToString:@"iPad8,8"])
+            return @"iPad Pro (12.9-inch) (3rd generation)";
+        
+        // ************
+        // iPad Pro (11-inch) (2nd generation)
+        // ************
+        // Apple Tech specs: https://support.apple.com/kb/SP814
+        // Model(s): ?, ?
+        if ([platform isEqualToString:@"iPad8,9"] || [platform isEqualToString:@"iPad8,10"])
+            return @"iPad Pro (11-inch) (2nd generation)";
+        
+        // ************
+        // iPad Pro (12.9-inch) (4th generation)
+        // ************
+        // Apple Tech specs: https://support.apple.com/kb/SP815
+        // Model(s): ?, ?
+        if ([platform isEqualToString:@"iPad8,11"] || [platform isEqualToString:@"iPad8,12"])
+            return @"iPad Pro (12.9-inch) (4th generation)";
+        
+        // ************
+        // iPad mini (5th generation)
+        // ************
+        // Apple Tech specs: https://support.apple.com/kb/SP788
+        // Model(s): A2133, A2124, A2125, A2126
+        if ([platform isEqualToString:@"iPad11,1"] || [platform isEqualToString:@"iPad11,2"])
+            return @"iPad mini (5th generation)";
+        
+        // ************
+        // iPad Air (3rd generation)
+        // ************
+        // Apple Tech specs: https://support.apple.com/kb/SP787
+        // Model(s): A2152, A2123, A2153, A2154
+        if ([platform isEqualToString:@"iPad11,3"] || [platform isEqualToString:@"iPad11,4"])
+            return @"iPad Air (3rd generation)";
     }
     
     if ([platform hasPrefix:@"AppleTV"])
