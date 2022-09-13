@@ -243,6 +243,110 @@
         if ([platform isEqualToString:@"iPhone12,8"])
             return @"iPhone SE (2nd generation)";
         
+        // ************
+        // iPhone 12 mini
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone13,1"])
+            return @"iPhone 12 mini";
+        
+        // ************
+        // iPhone 12
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone13,2"])
+            return @"iPhone 12";
+        
+        // ************
+        // iPhone 12 Pro
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone13,3"])
+            return @"iPhone 12 Pro";
+        
+        // ************
+        // iPhone 12 Pro Max
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone13,4"])
+            return @"iPhone 12 Pro Max";
+        
+        // ************
+        // iPhone 13 mini
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone14,4"])
+            return @"iPhone 13 mini";
+        
+        // ************
+        // iPhone 13
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone14,5"])
+            return @"iPhone 13";
+        
+        // ************
+        // iPhone 13 Pro
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone14,2"])
+            return @"iPhone 13 Pro";
+        
+        // ************
+        // iPhone 13 Pro Max
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone14,3"])
+            return @"iPhone 13 Pro Max";
+        
+        // ************
+        // iPhone SE 3
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone14,6"])
+            return @"iPhone SE (3rd generation)";
+        
+        // ************
+        // iPhone 14
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone14,7"])
+            return @"iPhone 14";
+        
+        // ************
+        // iPhone 14 Plus
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone14,8"])
+            return @"iPhone 14 Plus";
+        
+        // ************
+        // iPhone 14 Pro
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone15,2"])
+            return @"iPhone 14 Pro";
+        
+        // ************
+        // iPhone 14 Pro Max
+        // ************
+        // Model(s): ?
+        // Apple Tech specs: https://support.apple.com/kb/
+        if ([platform isEqualToString:@"iPhone15,3"])
+            return @"iPhone 14 Pro Max";
+        
         
     }
     
