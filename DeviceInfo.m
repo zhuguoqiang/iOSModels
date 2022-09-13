@@ -247,7 +247,7 @@
         // iPhone 12 mini
         // ************
         // Model(s): ?
-        // Apple Tech specs: https://support.apple.com/kb/
+        // Apple Tech specs: https://support.apple.com/kb/SP829
         if ([platform isEqualToString:@"iPhone13,1"])
             return @"iPhone 12 mini";
         
@@ -255,7 +255,7 @@
         // iPhone 12
         // ************
         // Model(s): ?
-        // Apple Tech specs: https://support.apple.com/kb/
+        // Apple Tech specs: https://support.apple.com/kb/SP830
         if ([platform isEqualToString:@"iPhone13,2"])
             return @"iPhone 12";
         
@@ -263,7 +263,7 @@
         // iPhone 12 Pro
         // ************
         // Model(s): ?
-        // Apple Tech specs: https://support.apple.com/kb/
+        // Apple Tech specs: https://support.apple.com/kb/SP831
         if ([platform isEqualToString:@"iPhone13,3"])
             return @"iPhone 12 Pro";
         
@@ -271,7 +271,7 @@
         // iPhone 12 Pro Max
         // ************
         // Model(s): ?
-        // Apple Tech specs: https://support.apple.com/kb/
+        // Apple Tech specs: https://support.apple.com/kb/SP832
         if ([platform isEqualToString:@"iPhone13,4"])
             return @"iPhone 12 Pro Max";
         
@@ -279,7 +279,7 @@
         // iPhone 13 mini
         // ************
         // Model(s): ?
-        // Apple Tech specs: https://support.apple.com/kb/
+        // Apple Tech specs: https://support.apple.com/kb/SP847
         if ([platform isEqualToString:@"iPhone14,4"])
             return @"iPhone 13 mini";
         
@@ -287,7 +287,7 @@
         // iPhone 13
         // ************
         // Model(s): ?
-        // Apple Tech specs: https://support.apple.com/kb/
+        // Apple Tech specs: https://support.apple.com/kb/SP851
         if ([platform isEqualToString:@"iPhone14,5"])
             return @"iPhone 13";
         
@@ -295,7 +295,7 @@
         // iPhone 13 Pro
         // ************
         // Model(s): ?
-        // Apple Tech specs: https://support.apple.com/kb/
+        // Apple Tech specs: https://support.apple.com/kb/SP852
         if ([platform isEqualToString:@"iPhone14,2"])
             return @"iPhone 13 Pro";
         
@@ -303,7 +303,7 @@
         // iPhone 13 Pro Max
         // ************
         // Model(s): ?
-        // Apple Tech specs: https://support.apple.com/kb/
+        // Apple Tech specs: https://support.apple.com/kb/SP848
         if ([platform isEqualToString:@"iPhone14,3"])
             return @"iPhone 13 Pro Max";
         
@@ -311,7 +311,7 @@
         // iPhone SE 3
         // ************
         // Model(s): ?
-        // Apple Tech specs: https://support.apple.com/kb/
+        // Apple Tech specs: https://support.apple.com/kb/SP867
         if ([platform isEqualToString:@"iPhone14,6"])
             return @"iPhone SE (3rd generation)";
         
